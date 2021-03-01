@@ -804,7 +804,7 @@ body {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #282828;
+    color: #414141;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
@@ -1117,7 +1117,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 auto
+    margin: -10px auto
 }
 
 @media (max-width: 1180px) {
@@ -1128,13 +1128,13 @@ body {
 
 .about--banner {
     position: relative;
-    height: 475px
+    height: 520px
 }
 
 .about--banner::before {
     content: "";
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 200px;
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
@@ -1157,7 +1157,7 @@ body {
 
 .about--banner h2 {
     position: relative;
-    margin-top: 35px;
+    margin-top: px;
     font-size: 68px;
     font-weight: 900;
     line-height: 1;
@@ -1331,7 +1331,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("");
+    background-image: url("../img/LAmap.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -1408,7 +1408,7 @@ body {
 }
 
 .contact--lockup .modal--options li:nth-child(2) {
-    background-color: #ea4c89
+    background-color: #c8386f
 }
 
 .contact--lockup .modal--options li:nth-child(3) {
